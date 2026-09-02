@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ — Safety Within Coaching</title>
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="images/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<meta name="description" content="Answers to common questions about nervous system-informed coaching with Kati — what to expect, how it works, and whether it's the right fit for you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Jost', system-ui, sans-serif; }
+  a { text-decoration: none; }
+  ::selection { background: #2f4a45; color: #f2efe9; }
+  .btn-primary:hover { background: #3d5c56 !important; }
+  header nav a:hover { opacity: 0.7; }
+  .cta-btn { transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s cubic-bezier(.2,.8,.2,1); display: inline-block; }
+  .cta-btn:hover { transform: translateY(-4px); box-shadow: 0 16px 32px rgba(20,30,28,.22); }
+
+  .faq-item { border-bottom: 1px solid rgba(35,46,44,.12); }
+  .faq-item summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 28px 4px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #22302e;
+  }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item .faq-icon {
+    flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border-radius: 999px;
+    border: 1px solid rgba(35,46,44,.28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 4px;
+  }
+  .faq-item .faq-icon::before,
+  .faq-item .faq-icon::after {
+    content: '';
+    position: absolute;
+    background: #2f4a45;
+    transition: transform .25s ease;
+  }
+  .faq-item .faq-icon::before { width: 11px; height: 1px; }
+  .faq-item .faq-icon::after { width: 1px; height: 11px; }
+  .faq-item[open] .faq-icon::after { transform: rotate(90deg) scaleY(0); }
+  .faq-answer {
+    padding: 0 4px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 68ch;
+  }
+  .faq-answer p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 300;
+    color: #3f5350;
+  }
+  .faq-group-label {
+    font-family: 'Jost', sans-serif;
+    font-size: 11.5px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: #7b8b88;
+    margin-bottom: 8px;
+  }
+  .faq-group-title {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #22302e;
+    margin-bottom: 4px;
+  }
+
+  @media (max-width: 680px) {
+    [style*="max(72px"] { padding-left: 20px !important; padding-right: 20px !important; }
+    [style*="max(56px"] { padding-left: 20px !important; padding-right: 20px !important; }
+    header nav { position: relative; }
+    header nav a:not(.book-link) { display: none; }
+    header nav.nav-open a:not(.book-link) { display: block; position: static; }
+    header nav.nav-open {
+      flex-direction: column; align-items: flex-start; background: #f6f4f0;
+      position: absolute; top: 64px; left: 0; right: 0; padding: 20px;
+      box-shadow: 0 12px 24px rgba(20,30,28,.12); gap: 18px !important;
+    }
+    #nav-toggle { display: flex !important; }
+    h1[style*="font-size: 46px"] { font-size: 30px !important; }
+    .faq-item summary { font-size: 19px; }
+  }
+</style>
+</head>
+<body>
+<div style="font-family: 'Jost', system-ui, sans-serif; background: #f6f4f0; overflow-x: hidden">
+
+  <header style="position: sticky; top: 0; z-index: 20; display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap; padding: 20px max(56px, calc((100vw - 1240px) / 2)); background: rgba(246,244,240,.86); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(35,46,44,.08)">
+    <a href="index.html" style="display: flex; flex-direction: column; align-items: center; line-height: 1">
+      <span style="font-family: 'EB Garamond', serif; font-weight: 400; font-size: 24px; letter-spacing: .12em; color: #22302e">SAFETY WITHIN</span>
+      <span style="font-family: 'Jost', sans-serif; font-weight: 400; font-size: 11px; letter-spacing: .32em; color: #4a5b58; margin-top: 2px">COACHING</span>
+    </a>
+    <nav id="main-nav" style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap; font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: #4a5b58; white-space: nowrap">
+      <a href="index.html#about-kati" style="color: #4a5b58">About Kati</a>
+      <a href="index.html#approach" style="color: #4a5b58">My Approach</a>
+      <a href="index.html#work" style="color: #4a5b58">Work with me</a>
+      <a href="index.html#about-safety-within" style="color: #4a5b58">About Safety Within</a>
+      <a href="index.html#words" style="color: #4a5b58">Their Words</a>
+      <a href="faq.html" style="color: #2f4a45">FAQ</a>
+      <a href="https://calendly.com/safetywithincoaching/30min" target="_blank" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/safetywithincoaching/30min'});return false;" class="book-link" style="display: inline-block; padding: 11px 22px; border-radius: 999px; background: #2f4a45; color: #f2efe9; letter-spacing: .12em">Book a call</a>
+    </nav>
+    <button id="nav-toggle" aria-label="Menu" style="display: none; flex-direction: column; justify-content: center; gap: 5px; width: 28px; height: 28px; background: none; border: none; cursor: pointer; padding: 0">
+      <span style="display: block; height: 2px; background: #2f4a45; border-radius: 2px"></span>
+      <span style="display: block; height: 2px; background: #2f4a45; border-radius: 2px"></span>
+      <span style="display: block; height: 2px; background: #2f4a45; border-radius: 2px"></span>
+    </button>
+  </header>
+
+  <section style="padding: 100px max(56px, calc((100vw - 1000px) / 2)) 56px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 22px">
+    <span style="font-size: 11.5px; letter-spacing: .3em; text-transform: uppercase; color: #4d6663">Frequently Asked Questions</span>
+    <h1 style="margin: 0; font-family: 'EB Garamond', serif; font-weight: 400; font-size: 46px; line-height: 1.15; color: #22302e; max-width: 18ch">Questions you might be sitting with</h1>
+    <p style="margin: 0; max-width: 56ch; font-size: 17px; line-height: 1.7; font-weight: 300; color: #3f5350">If something isn&rsquo;t covered here, you&rsquo;re always welcome to reach out directly.</p>
+  </section>
+
+  <section style="padding: 20px max(56px, calc((100vw - 800px) / 2)) 120px">
+
+    <div style="margin-bottom: 56px">
+      <div class="faq-group-label">Getting started</div>
+      <div class="faq-group-title">Is this the right fit for you?</div>
+    </div>
+
+    <details class="faq-item">
+      <summary><span>What if I&rsquo;m not sure whether coaching is right for me?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>You don&rsquo;t have to know before you book a free Connection Call.</p>
+        <p>The call is a chance for us to meet, talk about what&rsquo;s going on for you, and see whether my approach feels like the right fit.</p>
+        <p>There&rsquo;s no pressure to continue, and you don&rsquo;t need to prepare anything for the call.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What if I don&rsquo;t know what I need help with?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>Sometimes that&rsquo;s exactly when coaching can make the biggest difference.</p>
+        <p>Maybe you just feel that you want more from life, you feel stuck, constantly overwhelmed or stressed, disconnected from your own needs or dreams, or you notice yourself repeating the same unwanted patterns.</p>
+        <p>We can simply start there. Part of our work together is creating clarity around what&rsquo;s really going on and what you actually need.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>Do I need previous experience with coaching, nervous system work, or therapy?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>No, not at all.</p>
+        <p>Every coaching journey is tailored to you, your needs, and what you want to work on. We discover things together along the way.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What kinds of topics can I bring to coaching sessions?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>You can bring anything that feels relevant to you right now.</p>
+        <p>This could be relationships, boundaries, patterns like people-pleasing, perfectionism, or hyper-independence, feeling stuck or lost, self-worth, difficulty trusting your intuition, repeating old patterns, or simply wanting to feel more connected to yourself.</p>
+        <p>You don&rsquo;t need to have a specific topic or problem figured out — we can start exploring it together.</p>
+      </div>
+    </details>
+
+    <div style="margin: 72px 0 56px">
+      <div class="faq-group-label">About the approach</div>
+      <div class="faq-group-title">How this work is different</div>
+    </div>
+
+    <details class="faq-item">
+      <summary><span>Is this therapy?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>No. Coaching and therapy are different forms of support.</p>
+        <p>My work is future-focused and centered around helping you understand yourself better, create more safety and awareness, and move toward the changes you want to make in your life.</p>
+        <p>Coaching is not a replacement for therapy or mental health treatment.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What is nervous system-informed coaching?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>In nervous system-informed coaching, we look at what you bring to the conversation through the lens of your nervous system.</p>
+        <p>You&rsquo;ll become more aware of what is happening in your body, learn to recognize different nervous system states, and understand what your nervous system might be communicating to you (or need from you!).</p>
+        <p>From there, we explore tools and strategies that actually support your current situation — not just general ones — and help you move towards your desired outcome.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What&rsquo;s the difference between nervous system-informed coaching and traditional coaching?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>Traditional coaching often focuses on your goals, thoughts, behaviours, and the actions you can take to move forward.</p>
+        <p>With nervous system-informed coaching, we do all of this too — but we also look at how your nervous system responds to what you&rsquo;re going through and what support it might need from you.</p>
+        <p>It adds another layer of awareness to the coaching process and helps you understand yourself on a deeper level.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>Do we talk about my past or trauma?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>We may explore past experiences when they are relevant to understanding your current patterns, but coaching is not trauma processing or therapy.</p>
+        <p>The focus of our work is on increasing awareness of what is happening for you in the present, exploring patterns that may be affecting you, and supporting you in moving forward.</p>
+        <p>If something comes up that is outside the scope of coaching, I will always prioritize your wellbeing and may recommend seeking appropriate support from a qualified mental health professional.</p>
+      </div>
+    </details>
+
+    <div style="margin: 72px 0 56px">
+      <div class="faq-group-label">What to expect</div>
+      <div class="faq-group-title">What working together looks like</div>
+    </div>
+
+    <details class="faq-item">
+      <summary><span>What happens during a coaching session?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>We start with what&rsquo;s taking up the most space in your mind that day and what you want to bring into the conversation.</p>
+        <p>This might be a situation, a recurring pattern, something you&rsquo;re struggling with, or something you want to change.</p>
+        <p>Together, we&rsquo;ll slow down, notice what&rsquo;s happening, explore what might be underneath it, and then identify what could support you moving forward.</p>
+        <p>If it would feel supportive, we can also include grounding practices during the session, or I can share resources afterwards — but only if that&rsquo;s something you&rsquo;d like.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>How do I know how many sessions I need?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>There&rsquo;s no one-size-fits-all answer.</p>
+        <p>Some people want support around a specific situation, while others want more time to work through deeper patterns and create lasting changes.</p>
+        <p>We can talk about what makes sense for you during the free 30-minute Connection Call.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What if I&rsquo;ve tried coaching before and I didn&rsquo;t find it useful?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>That&rsquo;s completely understandable.</p>
+        <p>Coaching isn&rsquo;t one-size-fits-all, and different approaches work for different people.</p>
+        <p>My approach isn&rsquo;t about constantly pushing yourself to do more or simply changing your thoughts. We also pay attention to what&rsquo;s happening in your body and nervous system, so we can understand what might be making certain changes difficult in the first place.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What if I&rsquo;m nervous about opening up to a new person?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>You&rsquo;re always in charge of what you share, how much you share, and when you share it.</p>
+        <p>You don&rsquo;t have to share everything straight away. I&rsquo;m fully aware that building trust takes time.</p>
+        <p>My role is to create a space where you feel comfortable enough to explore yourself at your own pace.</p>
+      </div>
+    </details>
+
+    <div style="margin: 72px 0 56px">
+      <div class="faq-group-label">Common questions</div>
+      <div class="faq-group-title">When things feel stuck</div>
+    </div>
+
+    <details class="faq-item">
+      <summary><span>What if I know what I <em style="font-style: italic">should</em> do, but I just can&rsquo;t seem to do it?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>This is actually one of the areas where nervous system-informed coaching can be really helpful.</p>
+        <p>Sometimes knowing what to do isn&rsquo;t the same as feeling safe enough in your body to do it.</p>
+        <p>Instead of simply pushing yourself harder, we can explore what might be happening underneath the resistance and what your nervous system might be protecting you from.</p>
+        <p>From there, we can find a way forward that actually feels supportive and sustainable.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary><span>What if I&rsquo;ve spent years trying to understand myself, but nothing seems to make the difference?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>Then you&rsquo;re not starting from zero.</p>
+        <p>You might already have a lot of self-awareness and understanding of <em style="font-style: italic">why</em> you do certain things.</p>
+        <p>Our work can be about going one step further: noticing what happens in your body in those moments, understanding the patterns underneath, and exploring what your system actually needs to create lasting change.</p>
+        <p>Because sometimes it&rsquo;s not about understanding yourself enough. You might just need support to <em style="font-style: italic">feel safe enough</em> so that your system doesn&rsquo;t keep you from the bigger life you so deserve.</p>
+      </div>
+    </details>
+
+    <div style="margin: 72px 0 56px">
+      <div class="faq-group-label">Practical</div>
+      <div class="faq-group-title">Investment</div>
+    </div>
+
+    <details class="faq-item">
+      <summary><span>What if I can&rsquo;t afford your rates?</span><span class="faq-icon"></span></summary>
+      <div class="faq-answer">
+        <p>My biggest mission is to raise awareness of nervous system work and make it accessible to as many people as possible.</p>
+        <p>I truly believe everyone should have access to coaching and support when they need it — regardless of their background or financial situation.</p>
+        <p>If my regular rates don&rsquo;t currently fit your financial situation, I offer a limited number of scholarship spaces. You can apply for a scholarship, and we can then look together at what might be possible for you.</p>
+        <p>If this is something you&rsquo;re wondering about, please reach out.</p>
+      </div>
+    </details>
+
+  </section>
+
+  <section style="padding: 0 max(56px, calc((100vw - 900px) / 2)) 120px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 22px">
+    <h2 style="margin: 0; font-family: 'EB Garamond', serif; font-weight: 400; font-size: 32px; color: #22302e">Still have a question?</h2>
+    <p style="margin: 0; max-width: 46ch; font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; line-height: 1.7; color: #3f5350">Nothing needs to be decided in a hurry here.</p>
+    <a href="https://calendly.com/safetywithincoaching/30min" target="_blank" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/safetywithincoaching/30min'});return false;" class="cta-btn" style="margin-top: 10px; padding: 17px 34px; border-radius: 999px; background: #2f4a45; color: #f2efe9; font-family: 'Jost', sans-serif; font-size: 12.5px; letter-spacing: .16em; text-transform: uppercase">Book a Free Connection Call</a>
+    <a href="index.html#apply" style="margin-top: 4px; font-size: 13px; letter-spacing: .08em; color: #4a5b58; text-decoration: underline">Or send a message instead</a>
+  </section>
+
+  <footer style="background: #22302e; color: rgba(238,241,236,.72)">
+    <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; padding: 64px max(72px, calc((100vw - 1240px) / 2)); flex-wrap: wrap">
+      <div style="display: flex; flex-direction: column; gap: 12px">
+        <img src="images/img-19.png" alt="Safety Within Coaching" style="height: 38px; width: auto; display: block;">
+      </div>
+      <div style="display: flex; gap: 40px; font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; flex-wrap: wrap">
+        <a href="index.html#about-kati" style="color: rgba(238,241,236,.72)">About Kati</a>
+        <a href="index.html#approach" style="color: rgba(238,241,236,.72)">My Approach</a>
+        <a href="index.html#work" style="color: rgba(238,241,236,.72)">Work with me</a>
+        <a href="faq.html" style="color: rgba(238,241,236,.72)">FAQ</a>
+        <a href="index.html#words" style="color: rgba(238,241,236,.72)">Their Words</a>
+        <a href="index.html#apply" style="color: rgba(238,241,236,.72)">Contact</a>
+      </div>
+    </div>
+    <div style="padding: 0 max(72px, calc((100vw - 1240px) / 2)) 48px; max-width: 780px">
+      <p style="margin: 0 0 12px; font-size: 12px; line-height: 1.7; font-weight: 300; color: rgba(238,241,236,.4)">Coaching is a collaborative process designed to support your personal growth and self-awareness. While coaching can lead to meaningful change, no specific results can be guaranteed, and you remain responsible for your own decisions and actions.</p>
+      <p style="margin: 0; font-size: 12px; line-height: 1.7; font-weight: 300; color: rgba(238,241,236,.4)">Safety Within Coaching does not provide medical, psychological, or therapeutic services and is not a substitute for healthcare, psychotherapy, or counselling. If you have concerns about your mental or physical health, please seek support from an appropriately qualified healthcare professional.</p>
+    </div>
+    <div style="padding: 24px max(72px, calc((100vw - 1240px) / 2)); display: flex; justify-content: flex-end; border-top: 1px solid rgba(238,241,236,.08)">
+      <span style="font-size: 12px; font-weight: 300; color: rgba(238,241,236,.45)">Safety Within Coaching © 2026</span>
+      <a href="privacy-policy.html" style="font-size: 12px; font-weight: 300; color: rgba(238,241,236,.45); margin-left: 20px">Privacy Policy</a>
+      <a href="terms-of-use.html" style="font-size: 12px; font-weight: 300; color: rgba(238,241,236,.45); margin-left: 20px">Terms of Use</a>
+    </div>
+  </footer>
+</div>
+
+<script>
+  (function() {
+    var navToggle = document.getElementById('nav-toggle');
+    var mainNav = document.getElementById('main-nav');
+    if (navToggle && mainNav) {
+      navToggle.addEventListener('click', function() {
+        mainNav.classList.toggle('nav-open');
+      });
+      mainNav.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          mainNav.classList.remove('nav-open');
+        });
+      });
+    }
+  })();
+</script>
+</body>
+</html>
